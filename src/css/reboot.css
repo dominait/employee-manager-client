@@ -1,6 +1,4 @@
-import {CreateGlobalStyle} from 'styled-components'
-
-const GlobalStyles = createGlobalStyle ` 
+ 
 *,
  *::before,
  *::after {
@@ -80,10 +78,6 @@ const GlobalStyles = createGlobalStyle `
  th {
    padding: 0;
  }
-`
-
-export default GlobalStyles
  
-  
  
   

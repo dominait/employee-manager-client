@@ -1,13 +1,8 @@
-import AppBar from "./components/appbar";
-import firebase from "./firebase/firebase.config";
-import HomePage from "./pages/home";
-import GlobalStyles from "./global/globalStyles";
+import './css/reboot.css'
+ 
 function App() {
   return (
-    <GlobalStyles>
-      <AppBar isUser={false} />
-      <HomePage />
-    </GlobalStyles>
+    <header><h1>FireBaseHosting</h1></header>
   );
 }
 
