@@ -16,7 +16,7 @@ By default emulators run only on loclhost but you can edit your firebase.json fi
 ```json
 "emulators": {    
     "hosting": {
-      "port": 5000
+      "port": 5000,
       "host": "192.168.1.69"
     }
   }
