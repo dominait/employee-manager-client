@@ -1,15 +1,32 @@
-import StyleWrapper from './styles'
-import UserIcon from '../icon/User'
+import React from 'react';
+import styled from 'styled-components'
+import LoginStatus from '../loginstatus';
+
+const AppBarStyles = styled.ul `
+  box-shadow:0 0 3px 0 grey;
+  padding: 1rem;
+  ul{
+      display:flex;
+      justify-content:space-between;
+  }
+`
+
+ 
+
+ 
 
 function AppBar (props){
     return(
-    <StyleWrapper>
-        <ul>
-            <li><h2>Employee Manager</h2></li>
-            
-            <li> <UserIcon/></li>
-        </ul>
-    </StyleWrapper>
+        <AppBarStyles>
+            <ul>
+                <li>
+                    employee manager
+                </li>
+                <li>
+                   <LoginStatus label="logged out"/>
+                </li>
+            </ul>
+        </AppBarStyles>
     )
 }
 

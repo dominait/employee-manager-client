@@ -45,27 +45,21 @@ It correctly bundles React in production mode and optimizes the build for the be
 
  
 
-## Learn More
+## Useful Resources
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- When setting up a project with CRA you will find most of the information you need from the  [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- If its a react.js specific question then you should start by searching through the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+- A handy feature of create react app is that you do not have to use realative paths. You can use absolute paths in any of your component files to use [absolute imports with CRA read](https://create-react-app.dev/docs/importing-a-component/#absolute-imports)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ 
 
-### Analyzing the Bundle Size
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ 
 
 ### Deployment
 
